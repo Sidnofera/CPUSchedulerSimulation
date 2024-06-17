@@ -52,6 +52,8 @@ int main() {
         Process(3, 6),
         Process(4, 8)
     };
+   
+
 
     for (auto &process : processes) {
         scheduler.addProcess(process);
